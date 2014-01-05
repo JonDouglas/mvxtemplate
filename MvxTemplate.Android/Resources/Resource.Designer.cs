@@ -26,28 +26,106 @@ namespace MvxTemplate.Android
 		
 		public static void UpdateIdValues()
 		{
+			global::SlidingMenuSharp.Resource.Attribute.behindOffset = global::MvxTemplate.Android.Resource.Attribute.behindOffset;
+			global::SlidingMenuSharp.Resource.Attribute.behindScrollScale = global::MvxTemplate.Android.Resource.Attribute.behindScrollScale;
+			global::SlidingMenuSharp.Resource.Attribute.behindWidth = global::MvxTemplate.Android.Resource.Attribute.behindWidth;
+			global::SlidingMenuSharp.Resource.Attribute.fadeDegree = global::MvxTemplate.Android.Resource.Attribute.fadeDegree;
+			global::SlidingMenuSharp.Resource.Attribute.fadeEnabled = global::MvxTemplate.Android.Resource.Attribute.fadeEnabled;
+			global::SlidingMenuSharp.Resource.Attribute.mode = global::MvxTemplate.Android.Resource.Attribute.mode;
+			global::SlidingMenuSharp.Resource.Attribute.selectorDrawable = global::MvxTemplate.Android.Resource.Attribute.selectorDrawable;
+			global::SlidingMenuSharp.Resource.Attribute.selectorEnabled = global::MvxTemplate.Android.Resource.Attribute.selectorEnabled;
+			global::SlidingMenuSharp.Resource.Attribute.shadowDrawable = global::MvxTemplate.Android.Resource.Attribute.shadowDrawable;
+			global::SlidingMenuSharp.Resource.Attribute.shadowWidth = global::MvxTemplate.Android.Resource.Attribute.shadowWidth;
+			global::SlidingMenuSharp.Resource.Attribute.touchModeAbove = global::MvxTemplate.Android.Resource.Attribute.touchModeAbove;
+			global::SlidingMenuSharp.Resource.Attribute.touchModeBehind = global::MvxTemplate.Android.Resource.Attribute.touchModeBehind;
+			global::SlidingMenuSharp.Resource.Attribute.viewAbove = global::MvxTemplate.Android.Resource.Attribute.viewAbove;
+			global::SlidingMenuSharp.Resource.Attribute.viewBehind = global::MvxTemplate.Android.Resource.Attribute.viewBehind;
+			global::SlidingMenuSharp.Resource.Id.fullscreen = global::MvxTemplate.Android.Resource.Id.fullscreen;
+			global::SlidingMenuSharp.Resource.Id.left = global::MvxTemplate.Android.Resource.Id.left;
+			global::SlidingMenuSharp.Resource.Id.margin = global::MvxTemplate.Android.Resource.Id.margin;
+			global::SlidingMenuSharp.Resource.Id.right = global::MvxTemplate.Android.Resource.Id.right;
+			global::SlidingMenuSharp.Resource.Id.selected_view = global::MvxTemplate.Android.Resource.Id.selected_view;
+			global::SlidingMenuSharp.Resource.Id.slidingmenumain = global::MvxTemplate.Android.Resource.Id.slidingmenumain;
+			global::SlidingMenuSharp.Resource.Layout.slidingmenumain = global::MvxTemplate.Android.Resource.Layout.slidingmenumain;
+			global::SlidingMenuSharp.Resource.Styleable.SlidingMenu = global::MvxTemplate.Android.Resource.Styleable.SlidingMenu;
+			global::SlidingMenuSharp.Resource.Styleable.SlidingMenu_behindOffset = global::MvxTemplate.Android.Resource.Styleable.SlidingMenu_behindOffset;
+			global::SlidingMenuSharp.Resource.Styleable.SlidingMenu_behindScrollScale = global::MvxTemplate.Android.Resource.Styleable.SlidingMenu_behindScrollScale;
+			global::SlidingMenuSharp.Resource.Styleable.SlidingMenu_behindWidth = global::MvxTemplate.Android.Resource.Styleable.SlidingMenu_behindWidth;
+			global::SlidingMenuSharp.Resource.Styleable.SlidingMenu_fadeDegree = global::MvxTemplate.Android.Resource.Styleable.SlidingMenu_fadeDegree;
+			global::SlidingMenuSharp.Resource.Styleable.SlidingMenu_fadeEnabled = global::MvxTemplate.Android.Resource.Styleable.SlidingMenu_fadeEnabled;
+			global::SlidingMenuSharp.Resource.Styleable.SlidingMenu_mode = global::MvxTemplate.Android.Resource.Styleable.SlidingMenu_mode;
+			global::SlidingMenuSharp.Resource.Styleable.SlidingMenu_selectorDrawable = global::MvxTemplate.Android.Resource.Styleable.SlidingMenu_selectorDrawable;
+			global::SlidingMenuSharp.Resource.Styleable.SlidingMenu_selectorEnabled = global::MvxTemplate.Android.Resource.Styleable.SlidingMenu_selectorEnabled;
+			global::SlidingMenuSharp.Resource.Styleable.SlidingMenu_shadowDrawable = global::MvxTemplate.Android.Resource.Styleable.SlidingMenu_shadowDrawable;
+			global::SlidingMenuSharp.Resource.Styleable.SlidingMenu_shadowWidth = global::MvxTemplate.Android.Resource.Styleable.SlidingMenu_shadowWidth;
+			global::SlidingMenuSharp.Resource.Styleable.SlidingMenu_touchModeAbove = global::MvxTemplate.Android.Resource.Styleable.SlidingMenu_touchModeAbove;
+			global::SlidingMenuSharp.Resource.Styleable.SlidingMenu_touchModeBehind = global::MvxTemplate.Android.Resource.Styleable.SlidingMenu_touchModeBehind;
+			global::SlidingMenuSharp.Resource.Styleable.SlidingMenu_viewAbove = global::MvxTemplate.Android.Resource.Styleable.SlidingMenu_viewAbove;
+			global::SlidingMenuSharp.Resource.Styleable.SlidingMenu_viewBehind = global::MvxTemplate.Android.Resource.Styleable.SlidingMenu_viewBehind;
 		}
 		
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f010000
-			public const int MvxBind = 2130771968;
+			// aapt resource value: 0x7f01000e
+			public const int MvxBind = 2130771982;
 			
-			// aapt resource value: 0x7f010004
-			public const int MvxDropDownItemTemplate = 2130771972;
+			// aapt resource value: 0x7f010012
+			public const int MvxDropDownItemTemplate = 2130771986;
+			
+			// aapt resource value: 0x7f010011
+			public const int MvxItemTemplate = 2130771985;
+			
+			// aapt resource value: 0x7f01000f
+			public const int MvxLang = 2130771983;
+			
+			// aapt resource value: 0x7f010013
+			public const int MvxSource = 2130771987;
+			
+			// aapt resource value: 0x7f010010
+			public const int MvxTemplate = 2130771984;
 			
 			// aapt resource value: 0x7f010003
-			public const int MvxItemTemplate = 2130771971;
-			
-			// aapt resource value: 0x7f010001
-			public const int MvxLang = 2130771969;
+			public const int behindOffset = 2130771971;
 			
 			// aapt resource value: 0x7f010005
-			public const int MvxSource = 2130771973;
+			public const int behindScrollScale = 2130771973;
+			
+			// aapt resource value: 0x7f010004
+			public const int behindWidth = 2130771972;
+			
+			// aapt resource value: 0x7f01000b
+			public const int fadeDegree = 2130771979;
+			
+			// aapt resource value: 0x7f01000a
+			public const int fadeEnabled = 2130771978;
+			
+			// aapt resource value: 0x7f010000
+			public const int mode = 2130771968;
+			
+			// aapt resource value: 0x7f01000d
+			public const int selectorDrawable = 2130771981;
+			
+			// aapt resource value: 0x7f01000c
+			public const int selectorEnabled = 2130771980;
+			
+			// aapt resource value: 0x7f010008
+			public const int shadowDrawable = 2130771976;
+			
+			// aapt resource value: 0x7f010009
+			public const int shadowWidth = 2130771977;
+			
+			// aapt resource value: 0x7f010006
+			public const int touchModeAbove = 2130771974;
+			
+			// aapt resource value: 0x7f010007
+			public const int touchModeBehind = 2130771975;
+			
+			// aapt resource value: 0x7f010001
+			public const int viewAbove = 2130771969;
 			
 			// aapt resource value: 0x7f010002
-			public const int MvxTemplate = 2130771970;
+			public const int viewBehind = 2130771970;
 			
 			static Attribute()
 			{
@@ -66,7 +144,13 @@ namespace MvxTemplate.Android
 			public const int Icon = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int splash = 2130837505;
+			public const int SlidingMenuShadow = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int SlidingMenuShadowRight = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int splash = 2130837507;
 			
 			static Drawable()
 			{
@@ -81,11 +165,29 @@ namespace MvxTemplate.Android
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f040006
+			public const int MenuFrame = 2130968582;
+			
+			// aapt resource value: 0x7f040005
+			public const int MvxBindingTagUnique = 2130968581;
+			
+			// aapt resource value: 0x7f040003
+			public const int fullscreen = 2130968579;
+			
 			// aapt resource value: 0x7f040000
-			public const int MvxBindingTagUnique = 2130968576;
+			public const int left = 2130968576;
+			
+			// aapt resource value: 0x7f040002
+			public const int margin = 2130968578;
 			
 			// aapt resource value: 0x7f040001
-			public const int MyButton = 2130968577;
+			public const int right = 2130968577;
+			
+			// aapt resource value: 0x7f040004
+			public const int selected_view = 2130968580;
+			
+			// aapt resource value: 0x7f040007
+			public const int slidingmenumain = 2130968583;
 			
 			static Id()
 			{
@@ -104,10 +206,16 @@ namespace MvxTemplate.Android
 			public const int FirstView = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int Menu = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int SplashScreen = 2130903042;
+			public const int MenuFrame = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int slidingmenumain = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int SplashScreen = 2130903044;
 			
 			static Layout()
 			{
@@ -158,8 +266,8 @@ namespace MvxTemplate.Android
 		{
 			
 			public static int[] MvxBinding = new int[] {
-					2130771968,
-					2130771969};
+					2130771982,
+					2130771983};
 			
 			// aapt resource value: 0
 			public const int MvxBinding_MvxBind = 0;
@@ -168,26 +276,84 @@ namespace MvxTemplate.Android
 			public const int MvxBinding_MvxLang = 1;
 			
 			public static int[] MvxControl = new int[] {
-					2130771970};
+					2130771984};
 			
 			// aapt resource value: 0
 			public const int MvxControl_MvxTemplate = 0;
 			
 			public static int[] MvxImageView = new int[] {
-					2130771973};
+					2130771987};
 			
 			// aapt resource value: 0
 			public const int MvxImageView_MvxSource = 0;
 			
 			public static int[] MvxListView = new int[] {
-					2130771971,
-					2130771972};
+					2130771985,
+					2130771986};
 			
 			// aapt resource value: 1
 			public const int MvxListView_MvxDropDownItemTemplate = 1;
 			
 			// aapt resource value: 0
 			public const int MvxListView_MvxItemTemplate = 0;
+			
+			public static int[] SlidingMenu = new int[] {
+					2130771968,
+					2130771969,
+					2130771970,
+					2130771971,
+					2130771972,
+					2130771973,
+					2130771974,
+					2130771975,
+					2130771976,
+					2130771977,
+					2130771978,
+					2130771979,
+					2130771980,
+					2130771981};
+			
+			// aapt resource value: 3
+			public const int SlidingMenu_behindOffset = 3;
+			
+			// aapt resource value: 5
+			public const int SlidingMenu_behindScrollScale = 5;
+			
+			// aapt resource value: 4
+			public const int SlidingMenu_behindWidth = 4;
+			
+			// aapt resource value: 11
+			public const int SlidingMenu_fadeDegree = 11;
+			
+			// aapt resource value: 10
+			public const int SlidingMenu_fadeEnabled = 10;
+			
+			// aapt resource value: 0
+			public const int SlidingMenu_mode = 0;
+			
+			// aapt resource value: 13
+			public const int SlidingMenu_selectorDrawable = 13;
+			
+			// aapt resource value: 12
+			public const int SlidingMenu_selectorEnabled = 12;
+			
+			// aapt resource value: 8
+			public const int SlidingMenu_shadowDrawable = 8;
+			
+			// aapt resource value: 9
+			public const int SlidingMenu_shadowWidth = 9;
+			
+			// aapt resource value: 6
+			public const int SlidingMenu_touchModeAbove = 6;
+			
+			// aapt resource value: 7
+			public const int SlidingMenu_touchModeBehind = 7;
+			
+			// aapt resource value: 1
+			public const int SlidingMenu_viewAbove = 1;
+			
+			// aapt resource value: 2
+			public const int SlidingMenu_viewBehind = 2;
 			
 			static Styleable()
 			{
