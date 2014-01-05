@@ -1,6 +1,4 @@
-[submodule "SlidingMenuSharp"]
-	path = SlidingMenuSharp
-	url = https://github.com/Cheesebaron/SlidingMenuSharp.git
+
 [submodule "MvxTemplate.ThirdParty/SlidingMenuSharp"]
 	path = MvxTemplate.ThirdParty/SlidingMenuSharp
 	url = https://github.com/Cheesebaron/SlidingMenuSharp.git
