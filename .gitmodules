@@ -1,0 +1,3 @@
+[submodule "SlidingMenuSharp"]
+	path = SlidingMenuSharp
+	url = https://github.com/Cheesebaron/SlidingMenuSharp.git
