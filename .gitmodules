@@ -5,3 +5,6 @@
 [submodule "MvxTemplate.ThirdParty/LegacyBar"]
 	path = MvxTemplate.ThirdParty/LegacyBar
 	url = https://github.com/Cheesebaron/LegacyBar.git
+[submodule "MvxTemplate.ThirdParty/FlyoutNavigation"]
+	path = MvxTemplate.ThirdParty/FlyoutNavigation
+	url = https://github.com/jamesmontemagno/FlyoutNavigation.git
