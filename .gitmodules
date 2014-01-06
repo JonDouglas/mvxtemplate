@@ -2,3 +2,6 @@
 [submodule "MvxTemplate.ThirdParty/SlidingMenuSharp"]
 	path = MvxTemplate.ThirdParty/SlidingMenuSharp
 	url = https://github.com/Cheesebaron/SlidingMenuSharp.git
+[submodule "MvxTemplate.ThirdParty/LegacyBar"]
+	path = MvxTemplate.ThirdParty/LegacyBar
+	url = https://github.com/Cheesebaron/LegacyBar.git

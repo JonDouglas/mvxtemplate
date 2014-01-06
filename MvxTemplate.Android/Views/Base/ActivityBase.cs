@@ -11,6 +11,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Cirrious.MvvmCross.Droid.Fragging;
+using LegacyBar.Library.BarActions;
 using MvxTemplate.Android.Views.Fragments;
 using MvxTemplate.Core.ViewModels;
 using SlidingMenuSharp;
@@ -20,9 +21,18 @@ namespace MvxTemplate.Android.Views.Base
     public abstract class ActivityBase : MvxFragmentActivity
     {
         private SlidingMenu _slidingMenu;
-        protected virtual ICommand RefreshCommand { get { return null; } }
-        protected virtual bool DisableMenuSwipe { get { return false; } }
-//        protected LegacyBar.Library.Bar.LegacyBar LegacyBar { get; private set; }
+
+        protected virtual ICommand RefreshCommand
+        {
+            get { return null; }
+        }
+
+        protected virtual bool DisableMenuSwipe
+        {
+            get { return false; }
+        }
+
+        protected LegacyBar.Library.Bar.LegacyBar LegacyBar { get; private set; }
 
         protected override void OnViewModelSet()
         {
@@ -35,19 +45,19 @@ namespace MvxTemplate.Android.Views.Base
         {
             base.SetContentView(layoutResId);
 
-//            LegacyBar = FindViewById<LegacyBar.Library.Bar.LegacyBar>(Resource.Id.ActionBar);
-//
-//            if (LegacyBar != null)
-//            {
-//                LegacyBar.Title = Title;
-//                LegacyBar.Theme = LegacyBarTheme.HoloBlack;
-//
-//                LegacyBar.SetHomeAction(new ActionLegacyBarAction(this,
-//                                                                  () => _slidingMenu.Toggle(true),
-//                                                                  Resource.Drawable.Menu));
-//
-//                if (RefreshCommand != null)
-//                    LegacyBar.AddAction(new ActionLegacyBarAction(this, () => RefreshCommand.Execute(null), Resource.Drawable.Refresh));
+            LegacyBar = FindViewById<LegacyBar.Library.Bar.LegacyBar>(Resource.Id.ActionBar);
+
+            if (LegacyBar != null)
+            {
+                LegacyBar.Title = Title;
+                LegacyBar.Theme = LegacyBarTheme.HoloBlack;
+
+                LegacyBar.SetHomeAction(new ActionLegacyBarAction(this,
+                    () => _slidingMenu.Toggle(true),
+                    Resource.Drawable.Menu));
+
+                    LegacyBar.AddAction(new ActionLegacyBarAction(this, () => RefreshCommand.Execute(null),
+                        Resource.Drawable.Refresh));
 
                 _slidingMenu = new SlidingMenu(this)
                 {
@@ -71,5 +81,5 @@ namespace MvxTemplate.Android.Views.Base
                     .Replace(Resource.Id.MenuFrame, menuFragment).Commit();
             }
         }
-    
+    }
 }

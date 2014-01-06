@@ -10,9 +10,6 @@
     <projectUrl>https://github.com/slodge/MvvmCross</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This package contains the 'Messenger' plugin for MvvmCross v3 - Hot Tuna. This and other packages are currently under development...</description>
-    <releaseNotes />
-    <copyright />
-    <language />
     <tags>mvvm mvvmcross xamarin monodroid monotouch wpf windows8 winrt netcore wp wpdev windowsphone</tags>
     <dependencies>
       <dependency id="MvvmCross.HotTuna.CrossCore" version="3.0.14" />
