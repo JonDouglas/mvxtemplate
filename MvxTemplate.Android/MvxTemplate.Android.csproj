@@ -132,6 +132,10 @@
       <Project>{30ec970b-092a-4e1f-b12f-0219c0d27737}</Project>
       <Name>MvxTemplate.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MvxTemplate.ThirdParty\LegacyBar\LegacyBar.Library\LegacyBar.Library.csproj">
+      <Project>{371657b5-2c38-4d23-b7c1-6c053eb55fb8}</Project>
+      <Name>LegacyBar.Library</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MvxTemplate.ThirdParty\SlidingMenuSharp\SlidingMenuSharp\SlidingMenuSharp.csproj">
       <Project>{555937d8-1533-4d19-a346-55c192c35a5d}</Project>
       <Name>SlidingMenuSharp</Name>
